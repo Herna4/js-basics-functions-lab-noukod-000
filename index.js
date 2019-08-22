@@ -16,7 +16,10 @@ function distanceTravelledInFeet (start, end) {
   //returns the number of blocks given a value
   return (Math.abs(start - end) * 264);
 }
-
+ 
 function calculatesFarePrice (start, end) {
+  const distance = distanceTravelledInFeet(start, end);
+  
+  if (distance)
   
 }
